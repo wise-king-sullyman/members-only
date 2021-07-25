@@ -1,0 +1,66 @@
+body {
+  inset: 0;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: #347fc4;
+  height: 60px;
+  margin-top: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-home {
+  flex: 1;
+  min-width: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav .nav-controls {
+  flex: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  margin-right: 40px;
+}
+
+nav .nav-button {
+  text-decoration: none;
+  background-color: #92dce5;
+  color: #292f36;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  margin: 10px;
+
+  font-size: 20px;
+}
+
+nav .home {
+  background-color: transparent;
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+nav .inverted {
+  background-color: #292f36;
+  color: #92dce5;
+}
