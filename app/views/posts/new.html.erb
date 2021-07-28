@@ -1,6 +1,11 @@
-<%= form_with(model: @post) do |form| %>
-  <%= form.label :content %>
-  <%= form.text_field :content %>
-
-  <%= form.submit %>
-<% end %>
+<div class="new-post-container">
+  <%= form_with(model: @post) do |form| %>
+    <div class="input-group">
+      <%= form.label :content %>
+      <%= form.text_field :content %>
+    </div>
+    <div class="input-group">
+      <%= form.submit %>
+    </div>
+  <% end %>
+</div>
