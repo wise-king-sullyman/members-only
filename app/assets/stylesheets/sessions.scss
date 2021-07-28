@@ -1,0 +1,36 @@
+.new-session-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-in-form {
+  background-color: #92dbe59d;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.new-session-container .field {
+  margin: 10px 0;
+}
+
+.new-session-container .textbox{
+  width: 300px;
+}
+
+.new-session-container .actions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.new-session-container .actions input {
+  font-size: 20px;
+  width: 100px;
+  padding: 10px;
+
+  background-color: #06D6A0;
+
+  border: none;
+  border-radius: 10px;
+}
