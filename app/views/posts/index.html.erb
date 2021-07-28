@@ -2,7 +2,7 @@
   <% @posts.reverse_each do |post| %>
   <div class="post">
     <% if user_signed_in? %>
-      <p class="post-author"><%= post.user.username %></p>
+      <p class="author"><%= post.user.username %> said:</p>
     <% end %>
     <p class="post-content"><%= post.content %></p>
   </div>

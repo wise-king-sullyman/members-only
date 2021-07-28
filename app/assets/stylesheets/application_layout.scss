@@ -57,7 +57,10 @@ nav .home {
 }
 
 .content {
-  margin-top: 60px;
+  position: absolute;
+  inset: 60px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav .inverted {
