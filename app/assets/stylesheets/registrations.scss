@@ -1,35 +1,58 @@
-.new-registration-screen {
+.registration-screen {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.new-registration-container {
+.registration-container {
   background-color: #92dbe59d;
   padding: 20px;
   border-radius: 20px;
 }
 
-.new-registration-screen .field {
+.registration-screen .field {
   margin: 10px 0;
 }
 
-.new-registration-screen .textbox{
-  width: 300px;
+.registration-screen .textbox{
+  width: 400px;
+  font-size: 16px;
 }
 
-.new-registration-screen .actions {
+.registration-screen .actions {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-.new-registration-screen .actions input {
+.registration-screen .actions input {
   font-size: 20px;
   width: 100px;
   padding: 10px;
 
   background-color: #06D6A0;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.registration-screen .cancel-account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  margin: 10px;
+
+  background-color: #FFC43D;
+}
+
+.registration-screen .cancel-button {
+  font-size: 18px;
+  width: 200px;
+  padding: 10px;
+
+  background-color: #E11444;
 
   border: none;
   border-radius: 10px;
